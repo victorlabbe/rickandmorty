@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+
+    <title>Rick and morty</title>
+  </head>
+  <body>
+    <header class="container-fluid">
+        <div class="row">
+            <div class="col-8 colo-md-4 mx-auto bg-dark ">
+                <img src="img/logo.svg" alt="img-fluid " >
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <nav class="navbar navbar-expand-lg navbar-light bg-dark ">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="#">Rick and morty</a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">personajes</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Ubicaciones</a>
+                          </li>
+                          
+                        </ul>
+                      </div>
+                    </div>
+                  </nav>
+            </div>
+        </div>
+    </header>
+   <main class="container-fliud">
+       <div class="row">
+        <div class="col-12 col-md-6 col-lg-4">
+            <div class="card">  
+                <div class="card-header bg-dark bg-gradient text-center text-white ">
+                    <span>Nombre del personaje</span>
+                </div>
+                <div class="card-body">
+                    <img src="img/rick.jpg" alt="Rick" class="img-fluid">
+                </div>
+                <div class="card-footer d-grid gap-1">   
+                    <button class="btn btn-info">Ver Personaje</button>
+                </div>
+            </div>
+        </div>
+       </div>
+
+   </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+   <script src="js/index.js"></script>
+    
+  </body>
+</html>
